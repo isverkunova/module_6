@@ -303,15 +303,98 @@
     margin-right: 10px;
 }
 
+.second-form p {
+    margin: 2px 0 0 11px;
+    color: #154468;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
 
+.second-form > div {
+    margin: 5px 0 3px 13px;
+}
 
+.razmer {
+    margin: 0 3px 0 5px;
+}
 
+.second-form .fix-indent {
+    margin: 5px 0 0 48px;
+}
 
+.second-form-right-col {
+    width: 67px;
+    padding-right: 67px;
+    float: right;
+    color: #000;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 11px;
+}
+
+.season {
+    margin-left: 13px;
+}
+
+.short {
+    height: 13px;
+}
+/* END second-form */
 
 .third-form {
     width: 266px;
 }
-/* END form-menu */
+
+.third-form p {
+    margin: -8px 0 0 -8px;
+    color: #154468;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+.third-form-left-col {
+    width: 141px;
+    height: 105px;
+    margin-top: 5px;
+    margin-left: 17px;
+    padding-right: 17px;
+    float: left;
+    border-right: 1px solid #bdc6ca;
+}
+
+.third-form-left-col > div,
+.third-form-right-col > div {
+    margin-bottom: 1px;
+    line-height: 9px;
+    overflow: hidden;
+}
+
+.third-form-right-col {
+    width: 80px;
+    margin-bottom: 3px;
+    padding-top: 3px;
+    float: right;
+    overflow: hidden;
+}
+
+.mid-size {
+    width: 52px;
+    float: right;
+}
+
+.fix-height {
+    margin-top: 9px;
+}
+
+.razmer2 {
+    margin: 10px 0 0 2px;
+}
+/* END third-form and form-menu */
 
 .container {
     height: 627px;

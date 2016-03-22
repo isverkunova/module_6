@@ -64,27 +64,35 @@
                             <span class="param">Марка</span>
                             <span class="sub">авто:</span>
                         </div>
-                        <select class="max-size" name="marka1"></select>
+                        <select class="max-size" name="marka1">
+                            <option label=" "></option>
+                        </select>
                     </div>
                     <div>
                         <div class="parametr">
                             <span class="param">Модель</span>
                             <span class="sub">автомобиля:</span>
                         </div>
-                        <select class="max-size" name="model1"></select>
+                        <select class="max-size" name="model1">
+                            <option label=" "></option>
+                        </select>
                     </div>
                     <div>
                         <div class="parametr">
                             <span class="param">Год выпуска</span>
                             <span class="sub">автомобиля:</span>
                         </div>
-                        <select class="min-size" name="year1"></select>
+                        <select class="min-size" name="year1">
+                            <option label=" "></option>
+                        </select>
                     </div>
                     <div>
                         <div class="parametr">
                             <span class="param">Комплектация:</span>
                         </div>
-                        <select class="max-size" name="equipment1"></select>
+                        <select class="max-size" name="equipment1">
+                            <option label=" "></option>
+                        </select>
                     </div>
                 </div>
 
@@ -94,27 +102,35 @@
                             <span class="param">Марка</span>
                             <span class="sub">авто:</span>
                         </div>
-                        <select class="max-size" name="marka1"></select>
+                        <select class="max-size" name="marka2">
+                            <option label=" "></option>
+                        </select>
                     </div>
                     <div>
                         <div class="parametr">
                             <span class="param">Модель</span>
                             <span class="sub">автомобиля:</span>
                         </div>
-                        <select class="max-size" name="model1"></select>
+                        <select class="max-size" name="model2">
+                            <option label=" "></option>
+                        </select>
                     </div>
                     <div>
                         <div class="parametr">
                             <span class="param">Год выпуска</span>
                             <span class="sub">автомобиля:</span>
                         </div>
-                        <select class="min-size" name="year1"></select>
+                        <select class="min-size" name="year2">
+                            <option label=" "></option>
+                        </select>
                     </div>
                     <div>
                         <div class="parametr">
                             <span class="param">Комплектация:</span>
                         </div>
-                        <select class="max-size" name="equipment1"></select>
+                        <select class="max-size" name="equipment2">
+                            <option label=" "></option>
+                        </select>
                     </div>
                 </div>
                 <a class="search" href="#">поиск...</a>
@@ -124,8 +140,8 @@
             <form action="#" class="form second-form">
                 <p>поиск шин</p>
                 <div>
-                    <span>Размер:</span>
-                    <select name="razmer1">
+                    <span class="param">Размер:</span>
+                    <select class="razmer" name="razmer1">
                         <option label="145"></option>
                     </select>
                     <span>/</span>
@@ -133,48 +149,76 @@
                         <option label=" "></option>
                     </select>
                 </div>
-                <div>
-                    <span>R</span>
+                <div class="fix-indent">
+                    <span class="param">R</span>
                     <select name="radius">
                         <option label="12"></option>
                     </select>
                 </div>
-                <span>Сезон:</span>
-                <div>
-                    <input type="checkbox" id="1">
-                    <label for="1">лето</label>
-                    <input type="checkbox" id="2">
-                    <label for="2">зима</label>
-                    <input type="checkbox" id="3">
-                    <label for="3">всесез</label>
-                    <a class="search" href="#">поиск...</a>
+                <span class="param season">Сезон:</span>
+                <div class="second-form-right-col">
+                    <div class="short">
+                        <input type="checkbox" id="1">
+                        <label for="1">лето</label>
+                    </div>
+                    <div class="short">
+                        <input type="checkbox" id="2">
+                        <label for="2">зима</label>
+                    </div>
+                    <div class="short">
+                        <input type="checkbox" id="3">
+                        <label for="3">всесез</label>
+                    </div>
                 </div>
+                <a class="search" href="#">поиск...</a>
             </form>
             <!--END second-form-->
 
             <form action="#" class="form third-form">
-                <div>
+                <div class="third-form-left-col">
                     <p>поиск дисков</p>
-                    <span>Диаметр диска:</span>
-                    <select name="dm">
-                        <option label="14"></option>
-                    </select>
-                    <span>Количество крепёжных отверстий:</span>
-                    <select name="kko">
-                        <option label="3"></option>
-                    </select>
-                    <span>Диаметр расположения крепёжных отверстий:</span>
-                    <select name="dm-kko">
-                        <option label="12"></option>
-                    </select>
+                    <div>
+                        <div class="parametr">
+                            <span class="param">Диаметр</span>
+                            <span class="sub">диска:</span>
+                        </div>
+                        <select class="mid-size" name="dm">
+                            <option label="14"></option>
+                        </select>
+                    </div>
+                    <div>
+                        <div class="parametr">
+                            <span class="param">Количество</span>
+                            <span class="sub">крепёжных отверстий:</span>
+                        </div>
+                        <select class="mid-size fix-height" name="kko">
+                            <option label="3"></option>
+                        </select>
+                    </div>
+                    <div>
+                        <div class="parametr">
+                            <span class="param">Диаметр</span>
+                            <span class="sub">расположения крепёжных отверстий:</span>
+                        </div>
+                        <select class="mid-size fix-height" name="dm-kko">
+                            <option label="12"></option>
+                        </select>
+                    </div>
                 </div>
-                <div>
-                    <span>ДЦО (диаметр центрального отверстия):</span>
-                    <select name="dco">
+
+                <div class="third-form-right-col">
+                    <div class="parametr">
+                        <span class="param">ДЦО</span>
+                        <span class="sub">(диаметр центрального отверстия):</span>
+                    </div>
+                    <select class="razmer2" name="dco">
                         <option label="12"></option>
                     </select>
-                    <span>ET (вылет диска):</span>
-                    <select name="et">
+                    <div class="parametr">
+                        <span class="param">ET</span>
+                        <span class="sub">(вылет диска):</span>
+                    </div>
+                    <select class="razmer2" name="et">
                         <option label="12"></option>
                     </select>
                 </div>
