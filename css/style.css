@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-.header {
+header {
     width: auto;
     height: 32px;
     margin: 10px auto 5px;
@@ -144,18 +144,15 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d5663', endColorstr='#070809', GradientType=0);
 }
 
-.top-menu ul {
+nav {
     width: 510px;
     margin-left: 127px;
 }
 
-.top-menu li {
-    float: left;
-}
-
-.top-menu a {
+nav a {
     display: block;
     padding: 0 18px 0 8px;
+    float: left;
     color: #fff;
     font-family: 'Lucida Sans Unicode', sans-serif;
     font-size: 14px;
@@ -668,42 +665,40 @@
 }
 /* END sponsors */
 
-.footer {
+footer {
     width: 909px;
     height: 100px;
     margin: 21px auto 0;
     background-color: #213a4d;
 }
 
-.footer ul {
-    width: 330px;
-    margin: 0 0 4px 295px;
+footer nav {
+    width: 325px;
+    margin: 0 0 16px 295px;
     overflow: hidden;
 }
 
-.footer li {
-    float: left;
-}
-
-.footer a {
+footer a {
+    margin-top: 13px;
     padding: 0 12px 0 15px;
+    float: left;
     border-right: 2px solid #bec6c9;
     color: #bec6c9;
     font-family: Arial, sans-serif;
     font-size: 12px;
-    line-height: 36px;
+    line-height: 11px;
     text-decoration: none;
 }
 
-.footer li:last-child a {
+footer li:last-child a {
     border: 0;
 }
 
-.footer .footer-select {
+footer .footer-select {
     color: #52abcb;
 }
 
-.footer p {
+footer p {
     color: #7f4740;
     font-family: Arial, sans-serif;
     font-size: 10px;
