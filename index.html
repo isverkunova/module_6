@@ -23,7 +23,11 @@
                     <a class="pass" href="#">забыли пароль?</a>
                 </form>
             </div>
-            <div class="options"></div>
+            <div class="options">
+                <a class="home" href="#"></a>
+                <a class="nav" href="#"></a>
+                <a class="letter" href="#"></a>
+            </div>
         </header>
         <!--END header-->
 
@@ -226,27 +230,35 @@
         <div class="container clearfix">
             <menu class="left-column">
                 <p class="catalog">КАТАЛОГ ПРОДУКЦИИ:</p>
-                <p class="c-chapter">ШИНЫ</p>
-                <ul>
-                    <li><a href="#">Наименование 1</a></li>
-                    <li><a class="left-select" href="#">Наименование 2</a></li>
-                    <li><a href="#">Наименование 3</a></li>
-                    <li><a href="#">Наименование 4</a></li>
-                </ul>
-                <p class="c-chapter">ДИСКИ</p>
-                <ul>
-                    <li><a href="#">Наименование 1</a></li>
-                    <li><a href="#">Наименование 2</a></li>
-                    <li><a href="#">Наименование 3</a></li>
-                    <li><a href="#">Наименование 4</a></li>
-                </ul>
-                <p class="c-chapter">БОЛТЫ</p>
-                <ul>
-                    <li><a href="#">Наименование 1</a></li>
-                    <li><a href="#">Наименование 2</a></li>
-                    <li><a href="#">Наименование 3</a></li>
-                    <li><a href="#">Наименование 4</a></li>
-                </ul>
+                <div>
+                    <div>
+                        <p class="c-chapter">ШИНЫ</p>
+                        <ul>
+                            <li><a href="#">Наименование 1</a></li>
+                            <li><a class="left-select" href="#">Наименование 2</a></li>
+                            <li><a href="#">Наименование 3</a></li>
+                            <li><a href="#">Наименование 4</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="c-chapter">ДИСКИ</p>
+                        <ul>
+                            <li><a href="#">Наименование 1</a></li>
+                            <li><a href="#">Наименование 2</a></li>
+                            <li><a href="#">Наименование 3</a></li>
+                            <li><a href="#">Наименование 4</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="c-chapter">БОЛТЫ</p>
+                        <ul>
+                            <li><a href="#">Наименование 1</a></li>
+                            <li><a href="#">Наименование 2</a></li>
+                            <li><a href="#">Наименование 3</a></li>
+                            <li><a href="#">Наименование 4</a></li>
+                        </ul>
+                    </div>
+                </div>
             </menu>
             <!--END left-column-->
 
@@ -345,37 +357,43 @@
 
             <menu class="right-column">
                 <p class="brands">БРЕНДЫ:</p>
-                <p class="b-chapter">ШИНЫ</p>
-                <form class="check-brand" action="#">
+                <div>
                     <div>
-                        <input type="checkbox" id="4">
-                        <label for="4">Бренд 1</label>
+                        <p class="b-chapter">ШИНЫ</p>
+                        <form class="check-brand" action="#">
+                            <div>
+                                <input type="checkbox" id="4">
+                                <label for="4">Бренд 1</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="5">
+                                <label for="5">Бренд 2</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="6">
+                                <label for="6">Бренд 3</label>
+                            </div>
+                        </form>
                     </div>
                     <div>
-                        <input type="checkbox" id="5">
-                        <label for="5">Бренд 2</label>
+                        <p class="b-chapter correct">ДИСКИ</p>
+                        <form class="check-brand" action="#">
+                            <div>
+                                <input type="checkbox" id="7">
+                                <label for="7">Бренд 1</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="8">
+                                <label for="8">Бренд 2</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="9">
+                                <label for="9">Бренд 3</label>
+                            </div>
+                            <input type="submit" value="ВЫБРАТЬ">
+                        </form>
                     </div>
-                    <div>
-                        <input type="checkbox" id="6">
-                        <label for="6">Бренд 3</label>
-                    </div>
-                </form>
-                <p class="b-chapter correct">ДИСКИ</p>
-                <form class="check-brand" action="#">
-                    <div>
-                        <input type="checkbox" id="7">
-                        <label for="7">Бренд 1</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="8">
-                        <label for="8">Бренд 2</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="9">
-                        <label for="9">Бренд 3</label>
-                    </div>
-                    <input type="submit" value="ВЫБРАТЬ">
-                </form>
+                </div>
             </menu>
             <!--END right-column-->
         </div>

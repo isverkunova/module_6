@@ -104,9 +104,16 @@
     text-align: center;
 }
 
-.options::before {
-    display: block;
-    content: url('../img/home.png') url('../img/nav.png') url('../img/letter.png');
+.home::after {
+    content: url('../img/home.png');
+}
+
+.nav::after {
+    content: url('../img/nav.png');
+}
+
+.letter {
+    content: url('../img/letter.png');
 }
 
 .options a {
